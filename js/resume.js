@@ -15,10 +15,7 @@
     }
   });
 
-  //Profile count
-  function websiteVisits(response) {
-    document.querySelector("#visits").textContent = response.value;
-}
+ 
 
   // Closes responsive menu when a scroll trigger link is clicked
   $('.js-scroll-trigger').click(function() {
