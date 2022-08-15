@@ -1,0 +1,18 @@
+
+//creation of namespace & key
+https://api.countapi.xyz/create?namespace=tarunbylapudi.github.io&enable_reset=1
+
+{
+"namespace": "tarunbylapudi.github.io",
+"key": "dbed1d91-c4f7-4e31-8302-0ab15109c88f",
+"value": 0
+}
+
+
+// Resetting value
+
+https://api.countapi.xyz/set/tarunbylapudi.github.io/dbed1d91-c4f7-4e31-8302-0ab15109c88f?value={whatever you want, most likely 0}
+
+//Get current value
+
+https://api.countapi.xyz/get/tarunbylapudi.github.io/dbed1d91-c4f7-4e31-8302-0ab15109c88f
